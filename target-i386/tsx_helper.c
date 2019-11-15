@@ -621,6 +621,7 @@ void HELPER(xacquire_cmpxchg)(target_ulong data, CPUX86State *env, int32_t idx, 
                 compare = cpu_ldq_data(env, a0);
                 break;
 #endif
+                break;
         }
     }
 
